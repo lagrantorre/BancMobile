@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <usuarios>
+    <usuario>
+      <id> 1 </id>
+      <rut>12453657-9</rut>
+      <nombre>Solange Fune</nombre>
+      <direccion>Avenida SiempreVivas 1220</direccion>
+      <email>a@b.cl</email>
+      <password>1234</password>
+    </usuario>
+    
+    <usuario>
+      <id>2</id>
+      <rut>14345678-3</rut>
+      <nombre>Andrea Cantos</nombre>
+      <direccion>Spriengfield 3344</direccion>
+      <email>b@c.cl</email>
+      <password>2345</password>
+    </usuario>
+    
+    <usuario>
+      <id>3</id>
+      <rut>15456767-0</rut>
+      <nombre>Miguel Aguilar </nombre>
+      <direccion>Monjitas 3456</direccion>
+      <email>c@d.cl</email>
+      <password>3456</password>
+    </usuario>
+    
+    <usuario>
+      <id>4</id>
+      <rut>17456432-9</rut>
+      <nombre>Agata Cordova</nombre>
+      <direccion>Las Flautas 345</direccion>
+      <email>d@e.cl</email>
+      <password>4567</password>
+    </usuario>
+
+    <usuario>
+      <id>5</id>
+      <rut>18435876-6</rut>
+      <nombre>Alejandro Vidal</nombre>
+      <direccion>La Isla 456</direccion>
+      <email>e@f.cl</email>
+      <password>5678</password>
+    </usuario>
+  </usuarios>
+
+</root>
+
+
