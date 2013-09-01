@@ -69,12 +69,13 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Compania\CompaniaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Plan\PlanController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Modelos\CompaniaModel.cs" />
-    <Compile Include="Models\Modelos\ModeloPrueba.cs" />
+    <Compile Include="Models\Modelos\PlanModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +91,7 @@
     <Content Include="Js\bootstrap.min.js" />
     <Content Include="Js\jquery-1.10.2.min.js" />
     <Content Include="Views\Compania\Inicio.aspx" />
+    <Content Include="Views\Plan\Ini_Plan.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

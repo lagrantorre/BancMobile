@@ -2,42 +2,42 @@
 <root>
   <planes>
     <plan>
-      <id_plan>E1</id_plan>
+      <id_plan>1</id_plan>
       <id_compania>2</id_compania>
       <nombre_plan>Multimedia 100</nombre_plan>
       <descripcion_plan>Minutos todo destino: 100, SMS/MMS a Entel :100, Cuota trafico movil: 250 MB</descripcion_plan>
       <valor_mes_plan>19480</valor_mes_plan>
     </plan>
     <plan>
-      <id_plan>E2</id_plan>
+      <id_plan>2</id_plan>
       <id_compania>2</id_compania>
       <nombre_plan>Multimedia 300</nombre_plan>
       <descripcion_plan>Minutos todo destino: 300, SMS/MMS a Entel :100, Cuota trafico movil: 600 MB</descripcion_plan>
       <valor_mes_plan>29990</valor_mes_plan>
     </plan>
     <plan>
-      <id_plan>C2</id_plan>
+      <id_plan>3</id_plan>
       <id_compania>1</id_compania>
       <nombre_plan>Total 80</nombre_plan>
       <descripcion_plan> 80 minutos libres, 50 sms todo destino</descripcion_plan>
       <valor_mes_plan>9990</valor_mes_plan>
     </plan>
     <plan>
-      <id_plan>C3</id_plan>
+      <id_plan>4</id_plan>
       <id_compania>1</id_compania>
       <nombre_plan>Total 200</nombre_plan>
       <descripcion_plan>200 minutos libres, 200 sms todo destino</descripcion_plan>
       <valor_mes_plan>16990</valor_mes_plan>
     </plan>
     <plan>
-      <id_plan>M1</id_plan>
+      <id_plan>5</id_plan>
       <id_compania>3</id_compania>
       <nombre_plan>Multimedia libre 100</nombre_plan>
       <descripcion_plan> 600 Mb navegacion, 100 minutos todo destino</descripcion_plan>
       <valor_mes_plan>18480</valor_mes_plan>
     </plan>
     <plan>
-      <id_plan>M2</id_plan>
+      <id_plan>6</id_plan>
       <id_compania>3</id_compania>
       <nombre_plan>Multimedia libre 200</nombre_plan>
       <descripcion_plan> 1,2 Gb navegacion, 200 minutos</descripcion_plan>
