@@ -77,6 +77,7 @@
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Modelos\CompaniaModel.cs" />
     <Compile Include="Models\Modelos\PlanModel.cs" />
+    <Compile Include="Models\Modelos\UsuarioModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +94,7 @@
     <Content Include="Js\jquery-1.10.2.min.js" />
     <Content Include="Views\Compania\Inicio.aspx" />
     <Content Include="Views\Plan\Ini_Plan.aspx" />
+    <Content Include="Views\Usuario\Inicio.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

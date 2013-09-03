@@ -11,7 +11,7 @@ namespace BancMobile.Controllers.Usuario
         //
         // GET: /Usuario/
 
-        public ActionResult Index()
+        public ActionResult Inicio()
         {
             return View();
         }
