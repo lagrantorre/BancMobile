@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Celular\CelularController.cs" />
     <Compile Include="Controllers\Compania\CompaniaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Plan\PlanController.cs" />
@@ -75,12 +76,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Modelos\CelularModel.cs" />
     <Compile Include="Models\Modelos\CompaniaModel.cs" />
     <Compile Include="Models\Modelos\PlanModel.cs" />
     <Compile Include="Models\Modelos\UsuarioModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Celulares.xml" />
     <Content Include="App_Data\Companias.xml" />
     <Content Include="App_Data\Planes.xml" />
     <Content Include="App_Data\Usuarios.xml" />
@@ -92,6 +95,7 @@
     <Content Include="Images\glyphicons-halflings.png" />
     <Content Include="Js\bootstrap.min.js" />
     <Content Include="Js\jquery-1.10.2.min.js" />
+    <Content Include="Views\Celular\Inicio.aspx" />
     <Content Include="Views\Compania\Inicio.aspx" />
     <Content Include="Views\Plan\Ini_Plan.aspx" />
     <Content Include="Views\Usuario\Inicio.aspx" />

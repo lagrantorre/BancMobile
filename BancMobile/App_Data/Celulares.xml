@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>   <!--klj -->
+  <celulares>
+    <celular>
+      <id_compannia>1</id_compannia>
+      <num_celular>8-2192454</num_celular>
+      <tipo>Plan</tipo>
+      <id_usuario>1</id_usuario>
+    </celular>
+
+    <celular>
+      <id_compannia>2</id_compannia>
+      <num_celular>78514788</num_celular>
+      <tipo>Prepago</tipo>
+      <id_usuario>2</id_usuario>
+    </celular>
+
+    <celular>
+      <id_compannia>3</id_compannia>
+      <num_celular>90780283</num_celular>
+      <tipo>Prepago</tipo>
+      <id_usuario>3</id_usuario>
+    </celular>
+
+    <celular>
+      <id_compannia>3</id_compannia>
+      <num_celular>97770283</num_celular>
+      <tipo>Prepago</tipo>
+      <id_usuario>4</id_usuario>
+    </celular>
+    </celulares>
+  
+</root>
