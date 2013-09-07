@@ -69,6 +69,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Celular\CelularController.cs" />
     <Compile Include="Controllers\Compania\CompaniaController.cs" />
+    <Compile Include="Controllers\Default1Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Plan\PlanController.cs" />
     <Compile Include="Controllers\Usuario\UsuarioController.cs" />
@@ -80,14 +81,20 @@
     <Compile Include="Models\Modelos\CompaniaModel.cs" />
     <Compile Include="Models\Modelos\PlanModel.cs" />
     <Compile Include="Models\Modelos\UsuarioModel.cs" />
+    <Compile Include="Models\Servicios\CompaniaServicios.cs" />
+    <Compile Include="Models\Servicios\UsuarioServicios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Celulares.xml" />
     <Content Include="App_Data\Companias.xml" />
+    <Content Include="App_Data\Companias.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Data\Planes.xml" />
     <Content Include="App_Data\Usuarios.xml" />
     <Content Include="Css\bootstrap-responsive.min.css" />
+    <Content Include="Css\bootstrap.css" />
     <Content Include="Css\bootstrap.min.css" />
     <Content Include="Css\styles.css" />
     <Content Include="Global.asax" />
@@ -96,7 +103,10 @@
     <Content Include="Js\bootstrap.min.js" />
     <Content Include="Js\jquery-1.10.2.min.js" />
     <Content Include="Views\Celular\Inicio.aspx" />
+    <Content Include="Views\Compania\AgregarCompania.aspx" />
+    <Content Include="Views\Compania\EditarCompania.aspx" />
     <Content Include="Views\Compania\Inicio.aspx" />
+    <Content Include="Views\Compania\ListaCompanias.aspx" />
     <Content Include="Views\Plan\Ini_Plan.aspx" />
     <Content Include="Views\Usuario\Inicio.aspx" />
     <Content Include="Web.config" />
@@ -129,9 +139,7 @@
     <Content Include="Views\Shared\Site.Master" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\Servicios\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -8,4 +8,8 @@
 
     <h2>Inicio de compania</h2>
 
+
+
+
+
 </asp:Content>

@@ -1,25 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <companias>
-    
-    
     <compania>
       <id_compania>1</id_compania>
       <nombre_compania>Claro</nombre_compania>
     </compania>
-
     <compania>
-      <id_compania>2</id_compania>
+      <id_compania>4</id_compania>
       <nombre_compania>Entel</nombre_compania>
     </compania>
-
     <compania>
-      <id_compania>3</id_compania>
-      <nombre_compania>Movistar</nombre_compania>
+      <id_compania>5</id_compania>
+      <nombre_compania>Virgin Mobile</nombre_compania>
     </compania>
-    
-    
+    <compania>
+      <id_compania>6</id_compania>
+      <nombre_compania>Nueva compania</nombre_compania>
+    </compania>
+    <compania>
+      <id_compania>7</id_compania>
+      <nombre_compania>Sole</nombre_compania>
+    </compania>
+    <compania>
+      <id_compania>77</id_compania>
+      <nombre_compania>asfd asfas dfs a</nombre_compania>
+    </compania>
   </companias>
-  
 </root>
-  

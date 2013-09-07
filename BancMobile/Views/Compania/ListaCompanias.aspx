@@ -8,30 +8,34 @@
 
     <h2>ListaCompanias</h2>
 
-    <table>
+    <table class="table">
         <tr>
-            <th></th>
+            
             <th>
                 idCompania
             </th>
             <th>
                 nombreCompania
             </th>
+            <th></th>
         </tr>
+
+
 
     <% foreach (var item in Model) { %>
     
         <tr>
-            <td>
-                <%: Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) %> |
-                <%: Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })%> |
-                <%: Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })%>
-            </td>
+           
             <td>
                 <%: item.idCompania %>
             </td>
             <td>
                 <%: item.nombreCompania %>
+            </td>
+             <td>
+                <%: Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) %> |
+                <%: Html.ActionLink("Detalle", "Details", new { /* id=item.PrimaryKey */ })%> |
+                <%: Html.ActionLink("Borrar", "Delete", new { /* id=item.PrimaryKey */ })%>
             </td>
         </tr>
     
@@ -40,7 +44,7 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Create New", "Create") %>
+        <%: Html.ActionLink("Crear nueva compañia", "Create") %>
     </p>
 
 </asp:Content>

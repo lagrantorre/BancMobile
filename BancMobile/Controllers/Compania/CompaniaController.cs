@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BancMobile.Models.Servicios;
+using BancMobile.Models.Modelos;
 
 namespace BancMobile.Controllers
 {
@@ -17,6 +19,62 @@ namespace BancMobile.Controllers
             // a la vista Inicio
             return View();
         }
+        public ActionResult ListaCompanias()
+        {
+            CompaniaServicios companiasServices = new CompaniaServicios();
+
+            //companiasServices.addCompania();
+
+            IEnumerable<CompaniaModel> listaCompanias = companiasServices.getDataCompanias();
+            return View(listaCompanias);
+        }
+
+        public ActionResult EditarCompania(int idCompania)
+        {
+
+            return View();
+        }
+        [HttpPost]
+        public ActionResult EditarCompania(CompaniaModel compania)
+        {
+
+
+            return RedirectToAction("ListaCompanias", "Compania");
+        }
+
+
+
+        [HttpPost]
+        public ActionResult AgregarCompania(CompaniaModel compania)
+        {
+            CompaniaServicios companiasServices = new CompaniaServicios();
+            try
+            {
+                companiasServices.addCompania(compania);
+
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+
+            return RedirectToAction("ListaCompanias", "Compania");
+        }
+
+        public ActionResult AgregarCompania()
+        {
+            return View();
+        }
+
+        /*
+        [HttpPost]
+        public ActionResult AgregarCompania(CompaniaModel compania)
+        {
+            return View();
+        }
+         * */
+
 
     }
 }
