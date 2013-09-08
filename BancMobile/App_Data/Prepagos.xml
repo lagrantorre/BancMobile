@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <Prepagos>
+    <Prepago>
+      <id_comp>2</id_comp>
+      <num_cel>78514788</num_cel>
+      <id_usuario>2</id_usuario>
+      <ult_recar>1</ult_recar>
+    </Prepago>
+    <Prepago>
+      <id_comp>3</id_comp>
+      <num_cel>97770283</num_cel>
+      <id_usuario>4</id_usuario>
+      <ult_recar>3</ult_recar>
+    </Prepago>
+  </Prepagos>
+</root>

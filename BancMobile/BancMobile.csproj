@@ -72,6 +72,8 @@
     <Compile Include="Controllers\Default1Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Plan\PlanController.cs" />
+    <Compile Include="Controllers\Prepago\PrepagoController.cs" />
+    <Compile Include="Controllers\Recarga\RecargaController.cs" />
     <Compile Include="Controllers\Usuario\UsuarioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -80,9 +82,12 @@
     <Compile Include="Models\Modelos\CelularModel.cs" />
     <Compile Include="Models\Modelos\CompaniaModel.cs" />
     <Compile Include="Models\Modelos\PlanModel.cs" />
+    <Compile Include="Models\Modelos\PrepagoModel.cs" />
+    <Compile Include="Models\Modelos\RecargaModel.cs" />
     <Compile Include="Models\Modelos\UsuarioModel.cs" />
     <Compile Include="Models\Servicios\CompaniaServicios.cs" />
     <Compile Include="Models\Servicios\UsuarioServicios.cs" />
+    <Compile Include="Models\Servicios\PlanServicios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +97,13 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Data\Planes.xml" />
+    <Content Include="App_Data\Planes.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\Recargas.xml" />
+    <Content Include="App_Data\Prepagos.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Data\Usuarios.xml" />
     <Content Include="Css\bootstrap-responsive.min.css" />
     <Content Include="Css\bootstrap.css" />
@@ -108,6 +120,8 @@
     <Content Include="Views\Compania\Inicio.aspx" />
     <Content Include="Views\Compania\ListaCompanias.aspx" />
     <Content Include="Views\Plan\Ini_Plan.aspx" />
+    <Content Include="Views\Prepago\Ini_prep.aspx" />
+    <Content Include="Views\Recarga\Ini_Recarga.aspx" />
     <Content Include="Views\Usuario\Inicio.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <recargas>
+    <recarga>
+      <id_recarga>1</id_recarga>
+      <valor>3500</valor>
+      <duracion></duracion>
+    </recarga>
+    <recarga>
+      <id_recarga>2</id_recarga>
+      <valor>5000</valor>
+      <duracion></duracion>
+    </recarga>
+    <recarga>
+      <id_recarga>3</id_recarga>
+      <valor>10000</valor>
+      <duracion></duracion>
+     </recarga>
+  </recargas>
+</root>
