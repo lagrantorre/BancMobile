@@ -1,60 +1,66 @@
-﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
     <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
-    <link href="../../Css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../../Css/styles.css" rel="stylesheet" type="text/css" />
-    
-
-    <script src="../../Js/jquery-1.10.2.min.js")" type="text/javascript"></script>
-    <script src="../../Js/bootstrap.min.js")" type="text/javascript"></script>
-
-
+    <link href="../../Css/StyleSheet1.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
-    <div class="page">
-        <div id="main" class="container">
-            <div class="row">
-                <div class="span12">
-                    <div id="header">
-                        <div id="title">
-                            <h1>Espacio en el header asfasdasfddsafda</h1>
-                        </div>              
-                        <div id="logindisplay">
-                            <% Html.RenderPartial("LogOnUserControl"); %>
-                        </div> 
-            
-                        <div id="menucontainer">
-               
-                        </div>
-                    </div>
-                </div>
-            
-            </div>
-
-            <div class="row">
-                <div id="sidebar" class="span2">
-                    <p>Sidebar</p>              
-                </div>
-
-                <div id="content" class="span10">
-                
-                    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
-                
-                </div>
-            
-            </div>
-
-            <div class="row">
-                <div id="footer" class="span12">
-                    <p>Es el footer </p>
-                </div>
-            </div>
-        </dsiv>
+<!--ZONA BANNER-->
+<div class="barra_contenedor">
+    <div class="barra_menuCel">
+        <select id="Select1">
+            <option>Seleccione numero</option>
+            <option>12</option>
+            <option>17</option>
+        </select>
     </div>
-</body>
+    <div class="barra_usuario">
+        <ul class="sesion">
+            <li>Alejandra Jorquera</li>
+            <li>icono_us</li>
+            <li><a href="*">cerrar sesion</a></li>
+        </ul>
+    </div>
+</div>
+<div class="Banner">
+    
+</div>
+<!------------------------------->
+<!------------------------------->
+<div class="menu_opciones">
+    <div class="Contenido">
+        <ul class="Lista_Menu_Principal">
+            <li > <a href="bot_1">Inicio</a></li>
+            <li > <a href="bot_2"></a>Consultar Numero</li>
+            <li > <a href="bot_3"></a>Recarga</li>
+            <li > <a href="bot_1"></a>Cambio Plan</li>
+            <li > <a href="bot_1"></a>Datos Personales</li>
+            <li > <a href="bot_1"></a>Datos Celular</li>
+            <li > <a href="bot_1"></a>Historial</li>
+        </ul>
+    </div>
+
+</div>
+<div class="ContenedorInfo">
+
+<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+
+</div>
+
+
+<!--ZONA PIE-->
+<div class="barra_Footer">
+    <div class="Copyright">Todos los Derechos Reservados, Santiago 2013</div>
+    <div class="Pie">
+        <ul class="Lista_Pie">
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Menu Usuario</a></li>
+        </ul>
+    </div>
+</div>
+<!------------------------------->
+<!------------------------------->
+</body >
+
 </html>
