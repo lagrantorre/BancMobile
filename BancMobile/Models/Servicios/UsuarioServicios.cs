@@ -7,9 +7,9 @@ namespace BancMobile.Models.Servicios
 {
     public class UsuarioServicios
     {
-		public bool validateUsuario{
+		//public bool validateUsuario{
 		
-		}
+		//}
 
     }
 }

@@ -74,6 +74,7 @@
     <Compile Include="Controllers\Plan\PlanController.cs" />
     <Compile Include="Controllers\Prepago\PrepagoController.cs" />
     <Compile Include="Controllers\Recarga\RecargaController.cs" />
+    <Compile Include="Controllers\Registro\RegistroController.cs" />
     <Compile Include="Controllers\Usuario\UsuarioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -119,9 +120,12 @@
     <Content Include="Views\Compania\EditarCompania.aspx" />
     <Content Include="Views\Compania\Inicio.aspx" />
     <Content Include="Views\Compania\ListaCompanias.aspx" />
+    <Content Include="Views\Consulta\ConsultaCelular.aspx" />
     <Content Include="Views\Plan\Ini_Plan.aspx" />
     <Content Include="Views\Prepago\Ini_prep.aspx" />
     <Content Include="Views\Recarga\Ini_Recarga.aspx" />
+    <Content Include="Views\Recarga\Recargar.aspx" />
+    <Content Include="Views\Registro\Registro.aspx" />
     <Content Include="Views\Usuario\Inicio.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
