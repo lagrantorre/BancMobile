@@ -2,7 +2,7 @@
 <root>
   <usuarios>
     <usuario>
-      <id> 1 </id>
+      <id_usuario> 1 </id_usuario>
       <rut>12453657-9</rut>
       <nombre>Solange Fune</nombre>
       <direccion>Avenida SiempreVivas 1220</direccion>
@@ -11,7 +11,7 @@
     </usuario>
     
     <usuario>
-      <id>2</id>
+      <id_usuario>2</id_usuario>
       <rut>14345678-3</rut>
       <nombre>Andrea Cantos</nombre>
       <direccion>Spriengfield 3344</direccion>
@@ -20,7 +20,7 @@
     </usuario>
     
     <usuario>
-      <id>3</id>
+      <id_usuario>3</id_usuario>
       <rut>15456767-0</rut>
       <nombre>Miguel Aguilar </nombre>
       <direccion>Monjitas 3456</direccion>
@@ -29,7 +29,7 @@
     </usuario>
     
     <usuario>
-      <id>4</id>
+      <id_usuario>4</id_usuario>
       <rut>17456432-9</rut>
       <nombre>Agata Cordova</nombre>
       <direccion>Las Flautas 345</direccion>
@@ -38,7 +38,7 @@
     </usuario>
 
     <usuario>
-      <id>5</id>
+      <id_usuario>5</id_usuario>
       <rut>18435876-6</rut>
       <nombre>Alejandro Vidal</nombre>
       <direccion>La Isla 456</direccion>
