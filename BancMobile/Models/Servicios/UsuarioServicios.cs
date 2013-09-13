@@ -10,22 +10,12 @@ namespace BancMobile.Models.Servicios
 {
     public class UsuarioServicios
     {
-        private string path = HttpContext.Current.Server.MapPath("~/App_Data/Usuario.xml");
+        private string path = HttpContext.Current.Server.MapPath("~/App_Data/Usuarios.xml");
 
         public IEnumerable<UsuarioModel> getDataUsuarios()
         {
-            //List<CompaniaModel> dataCompanias = new List<CompaniaModel>();
-            //VirtualPathUtility.ToAbsolute("~/App_Data/somedata.xml");
-            //string path = HttpContext.Current.Server.MapPath("~/App_Data/Companias.xml");
             XElement xmlUsuario = XElement.Load(this.path);
-            /*
-             *  <id> 1 </id>
-                <rut>12453657-9</rut>
-                <nombre>Solange Fune</nombre>
-                <direccion>Avenida SiempreVivas 1220</direccion>
-                <email>a@b.cl</email>
-                <password>1234</password>
-             * */
+           
             IEnumerable<UsuarioModel> dataUsuarios =
                 (from usuario in xmlUsuario.Descendants("usuario")
                  select new UsuarioModel
@@ -37,6 +27,7 @@ namespace BancMobile.Models.Servicios
                     mailUsuario = usuario.Element("email").Value,
                     passUsuario = usuario.Element("password").Value
                  }).ToList();
+            
             return dataUsuarios;
         }
 
@@ -60,23 +51,30 @@ namespace BancMobile.Models.Servicios
             return usuario;
         }
 
-        public bool addUsuario(UsuarioModel usuario)
+        public bool addUsuario(UsuarioModel usuario) // Recibo un usuario
         {
-            XElement xmlUsuario = XElement.Load(this.path);
-            
-            XElement parteXML = new XElement(
-                new XElement("usuario",
-                    new XElement("id_usuario", usuario.idUsuario),
-                    new XElement("rut", usuario.rutUsuario),
-                    new XElement("nombre", usuario.nombreUsuario),
-                    new XElement("direccion", usuario.direccionUsuario),
-                    new XElement("email", usuario.mailUsuario),
-                    new XElement("password", usuario.passUsuario)                    
-                    ));
+            try
+            {
+                XElement xmlUsuario = XElement.Load(this.path);
 
-            xmlUsuario.Element("usuarios").Add(parteXML);
-            xmlUsuario.Save(this.path);
-            return true;
+                XElement parteXML = new XElement(
+                    new XElement("usuario",
+                        new XElement("id_usuario", usuario.idUsuario),
+                        new XElement("rut", usuario.rutUsuario),
+                        new XElement("nombre", usuario.nombreUsuario),
+                        new XElement("direccion", usuario.direccionUsuario),
+                        new XElement("email", usuario.mailUsuario),
+                        new XElement("password", usuario.passUsuario)
+                        ));
+
+                    xmlUsuario.Element("usuarios").Add(parteXML);
+                    xmlUsuario.Save(this.path);
+                    return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }            
         }
 
         public bool deleteUsuario(int idUsuario)
@@ -105,14 +103,19 @@ namespace BancMobile.Models.Servicios
             return true;
         }
 
-        public bool loginUsuario(string pass, int rut)
+        public bool loginUsuario(string pass, string rut)
         {
             UsuarioModel usuario = new UsuarioModel();
             XElement xmlUsuario = XElement.Load(this.path);
 
             var getUsuario = (from c in xmlUsuario.Descendants("usuario")
-                              where c.Element("rut").Value.Equals(rut.ToString())
+                              where c.Element("rut").Value.Equals(rut)
                               select c).FirstOrDefault();
+
+            if (getUsuario == null)
+            {
+                return false;
+            }
 
             return getUsuario.Element("password").Value.Equals(pass);
         }
