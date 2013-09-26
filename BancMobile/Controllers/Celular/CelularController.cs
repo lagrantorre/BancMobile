@@ -18,10 +18,7 @@ namespace BancMobile.Controllers.Celular
             return View();
         }
 
-        public ActionResult ConsultaCelular(CelularModel celular)
-        {
-            return View();
-        }
+       
 
     }
 }

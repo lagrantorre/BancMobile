@@ -3,6 +3,7 @@
 <root>   <!--klj -->
   <celulares>
     <celular>
+      <id_celular>1</id_celular>
       <id_compannia>1</id_compannia>
       <num_celular>82192454</num_celular>
       <tipo>Plan</tipo>
@@ -10,6 +11,7 @@
     </celular>
 
     <celular>
+      <id_celular>2</id_celular>
       <id_compannia>2</id_compannia>
       <num_celular>78514788</num_celular>
       <tipo>Prepago</tipo>
@@ -17,6 +19,7 @@
     </celular>
 
     <celular>
+      <id_celular>3</id_celular>
       <id_compannia>3</id_compannia>
       <num_celular>90780283</num_celular>
       <tipo>Prepago</tipo>
@@ -24,6 +27,7 @@
     </celular>
 
     <celular>
+      <id_celular>4</id_celular>
       <id_compannia>3</id_compannia>
       <num_celular>97770283</num_celular>
       <tipo>Prepago</tipo>

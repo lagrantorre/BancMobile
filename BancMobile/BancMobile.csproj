@@ -69,6 +69,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Celular\CelularController.cs" />
     <Compile Include="Controllers\Compania\CompaniaController.cs" />
+    <Compile Include="Controllers\ConsultaCelularController.cs" />
     <Compile Include="Controllers\Default1Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Plan\PlanController.cs" />
@@ -82,9 +83,11 @@
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Modelos\CelularModel.cs" />
     <Compile Include="Models\Modelos\CompaniaModel.cs" />
+    <Compile Include="Models\Modelos\ConsultaModel.cs" />
     <Compile Include="Models\Modelos\PlanModel.cs" />
     <Compile Include="Models\Modelos\PrepagoModel.cs" />
     <Compile Include="Models\Modelos\RecargaModel.cs" />
+    <Compile Include="Models\Modelos\RegistroModel.cs" />
     <Compile Include="Models\Modelos\UsuarioModel.cs" />
     <Compile Include="Models\Servicios\CompaniaServicios.cs" />
     <Compile Include="Models\Servicios\UsuarioServicios.cs" />
@@ -120,10 +123,10 @@
     <Content Include="Views\Compania\EditarCompania.aspx" />
     <Content Include="Views\Compania\Inicio.aspx" />
     <Content Include="Views\Compania\ListaCompanias.aspx" />
+    <Content Include="Views\ConsultaCelular\ConsultaCelular.aspx" />
     <Content Include="Views\Consulta\ConsultaCelular.aspx" />
     <Content Include="Views\Plan\Ini_Plan.aspx" />
     <Content Include="Views\Prepago\Ini_prep.aspx" />
-    <Content Include="Views\Recarga\Ini_Recarga.aspx" />
     <Content Include="Views\Recarga\Recargar.aspx" />
     <Content Include="Views\Registro\Registro.aspx" />
     <Content Include="Views\Usuario\Inicio.aspx" />

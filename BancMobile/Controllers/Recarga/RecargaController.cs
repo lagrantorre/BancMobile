@@ -12,12 +12,7 @@ namespace BancMobile.Controllers.Recarga
     {
        
 
-        public ActionResult Ini_Recarga()
-        {
-            return View();
-        }
-
-        public ActionResult Recargar(CelularModel celular)
+          public ActionResult Recargar(CelularModel celular)
         {
             return View();
         }

@@ -6,7 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h2>ConsultaCelular</h2>
+  <h2>ConsultaCelular</h2>
 
     <% Html.BeginForm(); %>
    
@@ -34,7 +34,7 @@
                 <%: Html.ValidationMessageFor(model => model.nombre_plan)%>
             </div>
 
-<div class="editor-label">'Última Recarga</div>
+<div class="editor-label">Última Recarga</div>
             <div class="editor-field">
                 <%: Html.TextBoxFor(model => model.valorRecarga)%>
                 <%: Html.ValidationMessageFor(model => model.valorRecarga)%>
@@ -43,4 +43,6 @@
 
 <% Html.EndForm(); %>
 
+
 </asp:Content>
+
