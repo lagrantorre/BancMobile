@@ -13,7 +13,6 @@ namespace BancMobile.Models.Modelos
         public string direccionUsuario { get; set; }
         public string mailUsuario { get; set; }
         public string passUsuario { get; set; }
-
         public int id_compania { get; set; }
         public int numCelular { get; set; }
         public String tipo { get; set; }

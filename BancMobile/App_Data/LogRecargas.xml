@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <RecLogs>
+    <RecLog>
+      <idRec>1</idRec>
+      <NumCelular>97770283</NumCelular>
+      <Compania>Entel</Compania>
+      <Fecha_Ini>1-6-2013</Fecha_Ini>
+      <Fecha_Fin>31-6-2013</Fecha_Fin>
+      <valor>3500</valor>
+      <duracion>30 dias</duracion>
+    </RecLog>
+    <RecLog>
+      <idRec>2</idRec>
+      <NumCelular>97770283</NumCelular>
+      <Compania>Entel</Compania>
+      <Fecha_Ini>1-7-2013</Fecha_Ini>
+      <Fecha_Fin>31-8-2013</Fecha_Fin>
+      <valor>5000</valor>
+      <duracion>60 dias</duracion>
+    </RecLog>
+    <RecLog>
+      <idRec>3</idRec>
+      <NumCelular>97770283</NumCelular>
+      <Compania>Entel</Compania>
+      <Fecha_Ini>1-8-2013</Fecha_Ini>
+      <Fecha_Fin>31-8-2013</Fecha_Fin>
+      <valor>3500</valor>
+      <duracion>30 dias</duracion>
+    </RecLog>
+    <RecLog>
+      <idRec>4</idRec>
+      <NumCelular>97770283</NumCelular>
+      <Compania>Entel</Compania>
+      <Fecha_Ini>1-9-2013</Fecha_Ini>
+      <Fecha_Fin>30-11-2013</Fecha_Fin>
+      <valor>10000</valor>
+      <duracion>90 dias</duracion>
+    </RecLog>
+  </RecLogs>
+</root>

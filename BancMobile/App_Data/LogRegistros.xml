@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <RegLogs>
+    <RegLog>
+      <idReg>1</idReg>
+      <idUsr>1</idUsr>
+      <idCel>1</idCel>
+      <fechaReg>1-3-2013</fechaReg>      
+    </RegLog>
+    <RegLog>
+      <idReg>2</idReg>
+      <idUsr>2</idUsr>
+      <idCel>2</idCel>
+      <fechaReg>9-4-2013</fechaReg>
+    </RegLog>
+    <RegLog>
+      <idReg>3</idReg>
+      <idUsr>3</idUsr>
+      <idCel>3</idCel>
+      <fechaReg>15-4-2013</fechaReg>
+    </RegLog>
+    <RegLog>
+      <idReg>4</idReg>
+      <idUsr>4</idUsr>
+      <idCel>4</idCel>
+      <fechaReg>28-4-2013</fechaReg>
+    </RegLog>
+    <RegLog>
+      <idReg>5</idReg>
+      <idUsr>5</idUsr>
+      <idCel></idCel>
+      <fechaReg>30-5-2013</fechaReg>
+    </RegLog>
+  </RegLogs>
+</root>

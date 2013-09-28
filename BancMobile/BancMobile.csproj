@@ -100,6 +100,8 @@
     <Content Include="App_Data\Companias.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Data\LogRecargas.xml" />
+    <Content Include="App_Data\LogRegistros.xml" />
     <Content Include="App_Data\Planes.xml" />
     <Content Include="App_Data\Planes.xml">
       <SubType>Designer</SubType>
