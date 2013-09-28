@@ -38,6 +38,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -88,8 +90,10 @@
     <Compile Include="Models\Modelos\PrepagoModel.cs" />
     <Compile Include="Models\Modelos\RecargaModel.cs" />
     <Compile Include="Models\Modelos\RegistroModel.cs" />
+    <Compile Include="Models\Modelos\UnitViewModel.cs" />
     <Compile Include="Models\Modelos\UsuarioModel.cs" />
     <Compile Include="Models\Servicios\CompaniaServicios.cs" />
+    <Compile Include="Models\Servicios\RegistroServicios.cs" />
     <Compile Include="Models\Servicios\UsuarioServicios.cs" />
     <Compile Include="Models\Servicios\PlanServicios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -101,7 +105,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Data\LogRecargas.xml" />
-    <Content Include="App_Data\LogRegistros.xml" />
+    <Content Include="App_Data\LogRegistros.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Data\Planes.xml" />
     <Content Include="App_Data\Planes.xml">
       <SubType>Designer</SubType>
