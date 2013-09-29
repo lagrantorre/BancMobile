@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using BancMobile.Models.Modelos;
 
 namespace BancMobile.Controllers
 {
@@ -11,10 +12,15 @@ namespace BancMobile.Controllers
         //
         // GET: /ConsultaCelular/
 
-        public ActionResult ConsultaCelular()
+        public ActionResult ConsultaCelular(CelularModel cel)
         {
             return View();
         }
+
+
+       
+
+
 
     }
 }

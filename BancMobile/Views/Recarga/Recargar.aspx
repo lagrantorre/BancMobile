@@ -12,7 +12,12 @@
 
     <div class="editor-label">Valor</div>
             <div class="editor-field">
-                <%: Html.TextBoxFor(model => model.valor)%>
+                 <select onclick="GetValor(value);">
+                    <option value="3500">3.500</option>
+                    <option value="5000">5.000</option>
+                    <option value="10000">10.000</option>
+                   </select>
+
                 <%: Html.ValidationMessageFor(model => model.valor)%>
             </div>
 
@@ -20,13 +25,16 @@
             <div class="editor-field">
                 <%: Html.TextBoxFor(model => model.descripcion_recarga)%>
                 <%: Html.ValidationMessageFor(model => model.descripcion_recarga)%>
-            </div>
 
+            </div>
+            
             <p>
                 <input type="submit" value="Recargar" />
             </p>
 
+
     <% Html.EndForm(); %>
+
 
 
 </asp:Content>

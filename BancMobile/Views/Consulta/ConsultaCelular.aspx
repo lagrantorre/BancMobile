@@ -34,12 +34,6 @@
                 <%: Html.ValidationMessageFor(model => model.nombre_plan)%>
             </div>
 
-<div class="editor-label">'Última Recarga</div>
-            <div class="editor-field">
-                <%: Html.TextBoxFor(model => model.valorRecarga)%>
-                <%: Html.ValidationMessageFor(model => model.valorRecarga)%>
-            </div>
-
 
 <% Html.EndForm(); %>
 

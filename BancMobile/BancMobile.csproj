@@ -93,6 +93,8 @@
     <Compile Include="Models\Modelos\UnitViewModel.cs" />
     <Compile Include="Models\Modelos\UsuarioModel.cs" />
     <Compile Include="Models\Servicios\CompaniaServicios.cs" />
+    <Compile Include="Models\Servicios\ConsultaServicios.cs" />
+    <Compile Include="Models\Servicios\RecargaServicios.cs" />
     <Compile Include="Models\Servicios\RegistroServicios.cs" />
     <Compile Include="Models\Servicios\UsuarioServicios.cs" />
     <Compile Include="Models\Servicios\PlanServicios.cs" />

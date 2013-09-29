@@ -18,6 +18,8 @@ namespace BancMobile.Controllers.Registro
             return View();
         }
 
+
+
         [HttpPost]
         public ActionResult AgregarRegistro(RegistroModel registro)
         {

@@ -11,8 +11,8 @@ namespace BancMobile.Models.Servicios
     public class RegistroServicios
     {
         private string pathR = HttpContext.Current.Server.MapPath("~/App_Data/LogRegistros.xml");
-        private string pathU = HttpContext.Current.Server.MapPath("~/App_Data/Recargas.xml");
-        private string pathC = HttpContext.Current.Server.MapPath("~/App_Data/Usuarios.xml");
+        private string pathU = HttpContext.Current.Server.MapPath("~/App_Data/Usuarios.xml");
+        private string pathC = HttpContext.Current.Server.MapPath("~/App_Data/Celulares.xml");
        
         public bool addRegistro(RegistroModel registro)
         {
@@ -40,7 +40,8 @@ namespace BancMobile.Models.Servicios
                     new XElement("email", registro.mailUsuario),
                     new XElement("password", registro.passUsuario)));
             
-            xmlUsuarios.Add(usrXML);
+            
+                    xmlUsuarios.Add(usrXML);
             ////////////////////////////////////
             XElement xmlCelulares = XElement.Load(this.pathC);
 
