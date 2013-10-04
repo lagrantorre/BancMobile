@@ -1,38 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
-<root>   <!--klj -->
+<root>
+  <!--klj -->
   <celulares>
     <celular>
       <id_celular>1</id_celular>
       <id_compannia>1</id_compannia>
       <num_celular>82192454</num_celular>
       <tipo>Plan</tipo>
+      <id_plan>1</id_plan>
       <id_usuario>1</id_usuario>
     </celular>
-
     <celular>
       <id_celular>2</id_celular>
       <id_compannia>2</id_compannia>
       <num_celular>78514788</num_celular>
       <tipo>Prepago</tipo>
+      <id_plan>0</id_plan>
       <id_usuario>2</id_usuario>
     </celular>
-
     <celular>
       <id_celular>3</id_celular>
       <id_compannia>3</id_compannia>
       <num_celular>90780283</num_celular>
       <tipo>Prepago</tipo>
+      <id_plan>0</id_plan>
       <id_usuario>3</id_usuario>
     </celular>
-
     <celular>
       <id_celular>4</id_celular>
       <id_compannia>3</id_compannia>
       <num_celular>97770283</num_celular>
       <tipo>Prepago</tipo>
+      <id_plan>0</id_plan>
       <id_usuario>4</id_usuario>
     </celular>
-    </celulares>
-  
+  </celulares>
+  <celular>
+    <id_celular>0</id_celular>
+    <id_compania />
+    <num_celular>12345678</num_celular>
+    <tipo>1</tipo>
+    <id_usuario>0</id_usuario>
+  </celular>
+  <celular>
+    <id_celular>0</id_celular>
+    <id_compania />
+    <num_celular>12345678</num_celular>
+    <tipo>2</tipo>
+    <id_usuario>0</id_usuario>
+  </celular>
+  <celular>
+    <id_celular>0</id_celular>
+    <id_compania />
+    <num_celular>999888</num_celular>
+    <tipo>1</tipo>
+    <id_usuario>0</id_usuario>
+  </celular>
+  <celular>
+    <id_celular>0</id_celular>
+    <id_compania>1</id_compania>
+    <num_celular>0</num_celular>
+    <tipo>1</tipo>
+    <id_usuario>0</id_usuario>
+  </celular>
+  <celular>
+    <id_celular>0</id_celular>
+    <id_compania>1</id_compania>
+    <num_celular>0</num_celular>
+    <tipo>1</tipo>
+    <id_usuario>0</id_usuario>
+  </celular>
 </root>

@@ -9,7 +9,6 @@
       <email>a@b.cl</email>
       <password>1234</password>
     </usuario>
-    
     <usuario>
       <id_usuario>2</id_usuario>
       <rut>14345678-3</rut>
@@ -18,7 +17,6 @@
       <email>b@c.cl</email>
       <password>2345</password>
     </usuario>
-    
     <usuario>
       <id_usuario>3</id_usuario>
       <rut>15456767-0</rut>
@@ -27,7 +25,6 @@
       <email>c@d.cl</email>
       <password>3456</password>
     </usuario>
-    
     <usuario>
       <id_usuario>4</id_usuario>
       <rut>17456432-9</rut>
@@ -36,7 +33,6 @@
       <email>d@e.cl</email>
       <password>4567</password>
     </usuario>
-
     <usuario>
       <id_usuario>5</id_usuario>
       <rut>18435876-6</rut>
@@ -46,7 +42,60 @@
       <password>5678</password>
     </usuario>
   </usuarios>
-
+  <usuario>
+    <id_usuario>0</id_usuario>
+    <rut>123456</rut>
+    <nombre>asdf</nombre>
+    <direccion>asdfg</direccion>
+    <email>asdf@cyvi.cl</email>
+    <password>123456</password>
+  </usuario>
+  <usuario>
+    <id_usuario>0</id_usuario>
+    <rut>123456</rut>
+    <nombre>asdf</nombre>
+    <direccion>asdfg</direccion>
+    <email>asdf@cyvi.cl</email>
+    <password>123456</password>
+  </usuario>
+  <usuario>
+    <id_usuario>0</id_usuario>
+    <rut>88888888</rut>
+    <nombre>qwerty</nombre>
+    <direccion>Asgard 123</direccion>
+    <email>qwe@rty.cl</email>
+    <password>123456</password>
+  </usuario>
+  <usuario>
+    <id_usuario>0</id_usuario>
+    <rut>99999999</rut>
+    <nombre>poiuyt</nombre>
+    <direccion>lkjhgf</direccion>
+    <email>1234@rty.cl</email>
+    <password>123456</password>
+  </usuario>
+  <usuario>
+    <id_usuario>0</id_usuario>
+    <rut>0000000</rut>
+    <nombre>aaaeeeiiiooouu</nombre>
+    <direccion>zaxscdvf</direccion>
+    <email>0000@rty.cl</email>
+    <password>123456</password>
+  </usuario>
+  <usuario>
+    <id_usuario>0</id_usuario>
+    <rut>3434343433</rut>
+    <nombre>aaaaaaaaaaaaaa</nombre>
+    <direccion>zaxscdvf</direccion>
+    <email>11111@rty.cl</email>
+    <password>123456</password>
+  </usuario>
+  <usuario>
+    <id_usuario>0</id_usuario>
+    <rut>1212121212</rut>
+    <nombre>ssssssssssss</nombre>
+    <direccion>rrrrrrrrrrr</direccion>
+    <email>88888@rty.cl</email>
+    <password>123456</password>
+  </usuario>
 </root>
-
-

@@ -21,13 +21,22 @@ namespace BancMobile.Models.Servicios
             
             XElement insXML = new XElement(
                 new XElement("RegLog",
-                    new XElement("idReg", 0),
-                    new XElement("idUsr", 0),
-                    new XElement("idCel", 0),
-                    new XElement("fechaReg", System.DateTime.Today)));
+                new XElement("idRegistro", 0),
+                new XElement("idusuario", 0),
+                new XElement("rutUsuario", registro.rutUsuario),
+                new XElement("nombreUsuario", registro.nombreUsuario),
+                new XElement("direccion", registro.direccionUsuario),
+                new XElement("mail", registro.mailUsuario),
+                new XElement("compania", registro.compania),
+                new XElement("idCelular", 0),
+                new XElement("numCelular", registro.numCelular),
+                new XElement("tipoCelular", registro.tipo),
+                new XElement("plan", registro.plan),
+                new XElement("fechaReg", System.DateTime.Today)));
 
             
             xmlRegistros.Add(insXML);
+            xmlRegistros.Save(this.pathR);
             ////////////////////////////////////
             XElement xmlUsuarios = XElement.Load(this.pathU);
 
@@ -42,19 +51,20 @@ namespace BancMobile.Models.Servicios
             
             
                     xmlUsuarios.Add(usrXML);
+                    xmlUsuarios.Save(this.pathU);
             ////////////////////////////////////
             XElement xmlCelulares = XElement.Load(this.pathC);
 
             XElement celXML = new XElement(
                 new XElement("celular",
                     new XElement("id_celular", 0),
-                    new XElement("id_compania", registro.id_compania),
+                    new XElement("id_compania", registro.compania),
                     new XElement("num_celular", registro.numCelular),
                     new XElement("tipo", registro.tipo),
                     new XElement("id_usuario",0)));
 
             xmlCelulares.Add(celXML);
-
+            xmlCelulares.Save(this.pathC);
 
             return true;
         }

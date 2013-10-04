@@ -65,7 +65,7 @@
            
            <div class="editor-label">Compañia</div>
             <div class="editor-field">
-                <%: Html.DropDownListFor(model => model.id_plan,
+                <%: Html.DropDownListFor(model => model.compania,
                 new[]
                 {
                     new SelectListItem{ Value = "1", Text = "Claro" },
@@ -76,7 +76,7 @@
                 },
                 "Compañia")
              %>
-                <%: Html.ValidationMessageFor(model => model.numCelular)%>
+                <%: Html.ValidationMessageFor(model => model.compania)%>
             </div>
 
             <div class="editor-label">Tipo</div>
@@ -95,7 +95,7 @@
             <div class="editor-label">Plan</div>
             <div class="editor-field">
             
-            <%: Html.DropDownListFor(model => model.id_plan,
+            <%: Html.DropDownListFor(model => model.plan,
                 new[]
                 {
                     new SelectListItem{ Value = "1", Text = "Plan 1" },
@@ -104,7 +104,7 @@
                 },
                 "Plan")
              %>
-                <%: Html.ValidationMessageFor(model => model.id_plan)%>
+                <%: Html.ValidationMessageFor(model => model.plan)%>
             </div>
 
              <p>

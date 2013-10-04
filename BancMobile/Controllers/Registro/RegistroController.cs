@@ -21,7 +21,7 @@ namespace BancMobile.Controllers.Registro
 
 
         [HttpPost]
-        public ActionResult AgregarRegistro(RegistroModel registro)
+        public ActionResult Registro(RegistroModel registro)
         {
             RegistroServicios regServ = new RegistroServicios();
             try

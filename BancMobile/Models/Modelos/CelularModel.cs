@@ -9,6 +9,7 @@ namespace BancMobile.Models.Modelos
     {
         public int id_celular { get; set; }
         public int id_compania { get; set; }
+        public int id_plan { get; set; }
         public int numCelular { get; set; }
         public String tipo { get; set; }
         public int idUsuario { get; set; }
